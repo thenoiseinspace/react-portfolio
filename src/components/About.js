@@ -1,4 +1,4 @@
-import Headshot from '../Assets/profilepic.jpg'
+import Headshot from './Assets/profilepic.jpg'
 
 const AboutMe = () => {
 
