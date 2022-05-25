@@ -7,10 +7,104 @@
     display: none; 
 }
 
-
 /* CSS HEX */
 /* --sap-green: #597D37ff;
 --purple-x-11: #994DF3ff;
 --medium-orchid: #BA62FEff;
 --black: #000001ff;
 --blue-violet: #8C2DD0ff; */
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .about p {
+    font-size: 1.5rem;
+    padding: 20px 50px;
+  }
+  
+  .about h1 {
+    text-align: center;
+    padding: 15px 0 0 0;
+  }
+  
+  img {
+    justify-content: center;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+  
+  .nav-back {
+    background-size: cover;
+    padding: 0;
+  }
+  
+  .no-padding {
+    padding: 0;
+  }
+  
+  .name-color {
+    text-transform: capitalize;
+    background: linear-gradient(to right white, black);
+    font-size: 5rem;
+    color: black;
+  }
+  
+  .nav-text {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .form-text {
+    justify-content: center;
+  }
+  
+  .footer {
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0 30px 0;
+  
+  }
+  
+  .footer a {
+    color: black;
+  }
+  
+  .center-form {
+    text-align: center;
+  }
+  
+  .form-center {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-padding {
+    padding: 20px;
+  }
+  
+  .portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border: 10px black;
+  }
