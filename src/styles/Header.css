@@ -1,14 +1,32 @@
 .header {
-  background: #8C2DD0ff;
+  background: purple;
   /* background-image: url('https://cdn.pixabay.com/photo/2016/08/14/12/41/water-lily-1592793_1280.png'); */
   /* background-image: url("https://cdn.pixabay.com/photo/2015/08/29/23/45/mosaic-913658_1280.jpg"); */
-  height: 200px;
+  /* height: 250px; */
 }
 
 .header h1 {
   margin: 0;
-  padding-top: 75px;
+  padding-top: 20px;
   text-align: center;
   color: white;
   font-size: 3rem;
 }
+
+.headerDiv{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px; 
+}
+
+.nestedDivsAreGreat{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+.nestedDivsAreGreat h3 {
+  padding-bottom: 10px;
+  color: white; 
+}
+

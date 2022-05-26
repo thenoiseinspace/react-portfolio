@@ -13,8 +13,8 @@ function App() {
   const [selectedPage, setSelectedPage] = useState("Portfolio")
   return (
     <div>
-      <Header />
-      <NavTabs setSelectedPage = {setSelectedPage} sarah={"test"}/>
+      <Header setSelectedPage={setSelectedPage} />
+      {/* <NavTabs setSelectedPage = {setSelectedPage} sarah={"test"}/> */}
       {selectedPage === "Portfolio" && <Portfolio/>}
       {selectedPage === "About" && <About/>}
       {selectedPage === "Resume" && <Resume />}
