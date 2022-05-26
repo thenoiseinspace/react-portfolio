@@ -26,7 +26,7 @@ export default function Projects() {
         <div className="portfolio-card">
             <h2>Ukraine News Now</h2>
             <a href="https://fisher-davis.github.io/Ukraine-News-Now/"><img className="projectPhoto" src={UkraineNewsNow} alt='Ukraine News Now screencap' /></a>
-            <p> A one-stop shop where people concerned about the current situation in Ukraine can get informed and get involved by reading the latest news from sources around the world, and seeing charities currently taking action. </p>
+            <p> A one-stop shop where people concerned about the current situation in Ukraine can get informed and get involved by reading the latest news from sources around the world, and seeing charities currently taking action. <a href="https://fisher-davis.github.io/Ukraine-News-Now/">View the deployed project here.</a></p>
            <a href='https://github.com/thenoiseinspace/Ukraine-News-Now'>  <button className="button" onclick="a href='https://github.com/thenoiseinspace/Ukraine-News-Now';">
             View on GitHub
             </button></a>
@@ -53,7 +53,7 @@ export default function Projects() {
         <div className="portfolio-card">
             <h2>Day Planner</h2>
             <a href='https://github.com/thenoiseinspace/day-planner'><img className="projectPhoto" src={DayPlanner} alt='Day planner screenshot' /></a>
-            <p>This app allows users to track appointments for each hour of the workday, and changes colors to reflect the current time.</p>
+            <p>This app allows users to track appointments for each hour of the workday, and changes colors to reflect the current time. <a href="https://thenoiseinspace.github.io/day-planner">View the deployed project here.</a></p>
             <a href="https://github.com/thenoiseinspace/day-planner"><button className="button" onclick="window.location.href='https://github.com/thenoiseinspace/day-planner';">
             View on GitHub
             </button></a>

@@ -194,6 +194,10 @@ body {
   
   }
 
+  a{
+      color: white; 
+  }
+
   .button{
       margin-bottom: 20px; 
       padding: 7px; 
