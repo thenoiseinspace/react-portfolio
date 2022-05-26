@@ -5,6 +5,8 @@ const AboutMe = () => {
     return(
         
      <div className="parentWrapper">
+        <h1 className='pageHeader'>About Me</h1>
+      <hr></hr>
         <div className="photo">
             <img src={Headshot} alt="Me"/>
         </div>

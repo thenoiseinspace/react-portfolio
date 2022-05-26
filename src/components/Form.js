@@ -28,11 +28,8 @@ export default function Form () {
             setMessageSubmission(value)
           break;
         default:
-          // code block
       }
 
-      // Ternary statement that will call either setFirstName or setLastName based on what field the user is typing in
-    //   return name === 'firstName' ? setFirstName(value) : setLastName(value);
     return null; 
     };
 
@@ -49,17 +46,13 @@ export default function Form () {
       } else {
         document.getElementById("errors").style="display: none"
       }
-     
-      // Alert the user their first and last name, clear the inputs
-    //   alert(`Hello ${firstName} ${lastName}`);
-    //   setFirstName('');
-    //   setLastName('');
+
     };
   
     return (
       <div>
         <p>
-          Hello {firstName} {lastName}
+          Get in touch: 
         </p>
         <form className="form">
           <input
@@ -69,6 +62,7 @@ export default function Form () {
             type="text"
             placeholder="First Name"
           />
+          <br></br>
           <input
             value={lastName}
             name="lastName"
@@ -76,6 +70,7 @@ export default function Form () {
             type="text"
             placeholder="Last Name"
           />
+          <br></br>
           <input
             value={emailSubmission}
             name="emailSubmission"
@@ -83,6 +78,7 @@ export default function Form () {
             type="email"
             placeholder="Email"
           />
+          <br></br>
           <div id="errors">
             <p>Invalid email</p>
           </div>
@@ -93,6 +89,7 @@ export default function Form () {
             type="text"
             placeholder="Message"
           />
+          <br></br>
           <button type="button" onClick={handleFormSubmit}>
             Submit
           </button>
